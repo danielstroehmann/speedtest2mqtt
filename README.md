@@ -14,4 +14,5 @@ As mentioned in the scripts adopt the parameters to your needs:
 
 - Please only set variables to empty ("") instead of removing them!
 - TLS/SSL: If not required set to ""
+- Adopt upload and download topics for mqtt message
 
