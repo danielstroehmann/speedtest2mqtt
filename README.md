@@ -1,6 +1,6 @@
-# raspbian-speedtest2mqtt
+# speedtest2mqtt
 **Summary**
 
-Simple way to post raspbian native speedtest upload and download rate to mqtt broker. 
+Simple way to post raspbian native speedtest or speedtest by ookla upload and download rate to mqtt broker. 
 
 **Adapt To Your Needs**
