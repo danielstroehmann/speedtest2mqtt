@@ -12,7 +12,10 @@ Simple way to post raspbian native speedtest or speedtest by ookla upload and do
 
 As mentioned in the scripts adopt the parameters to your needs:
 
-- Please only set variables to empty ("") instead of removing them!
-- TLS/SSL: If not required set to ""
-- Adopt upload and download topics for mqtt message
+- `BROKER_ADDR`: set to your IP/FQDN or set to "" in case of localhost
+- `BROKER_PORT`: set to 1883 (default) or 8883 (encrypted). Can be set to "" to use 1883 as default.
+- `CAFILE`: set to Certification Authoritiy certificate or set to "" to not use SSL
+- `CLIENT_CERT` & `CLIENT_KEY`: set to your clients certificate files or to "" to disable TLS
+- `UPLOAD_TOPIC` & `DOWNLOAD_TOPIC`: ddjust to your needs
+
 
