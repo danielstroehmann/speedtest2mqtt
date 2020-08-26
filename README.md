@@ -3,12 +3,12 @@
 
 Simple way to post raspbian native speedtest or speedtest by ookla upload and download rate to mqtt broker. 
 
-** Preconditions **
+**Preconditions**
 
 - Install mosquitto clients by e.g. `apt install mosquitto-clients`
 - Speedtest and mosquitto clients are in path variable so they can be called by the commands given in the script
 
-** Usage **
+**Usage**
 
 As mentioned in the scripts adopt the parameters to your needs:
 
