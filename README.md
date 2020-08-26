@@ -16,6 +16,6 @@ As mentioned in the scripts adopt the parameters to your needs:
 - `BROKER_PORT`: set to 1883 (default) or 8883 (encrypted). Can be set to "" to use 1883 as default.
 - `CAFILE`: set to Certification Authoritiy certificate or set to "" to not use SSL
 - `CLIENT_CERT` & `CLIENT_KEY`: set to your clients certificate files or to "" to disable TLS
-- `UPLOAD_TOPIC` & `DOWNLOAD_TOPIC`: ddjust to your needs
+- `UPLOAD_TOPIC` & `DOWNLOAD_TOPIC`: adopt to your needs
 
 
