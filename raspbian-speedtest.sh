@@ -22,8 +22,8 @@ CLIENT_CERT="--cert /etc/mosquitto/client.crt"
 # Hint: set to "" if no encryption needed
 CLIENT_KEY="--key /etc/mosquitto/client.key"
 # Topics for MQTT
-UPLOAD_TOPIC="-t /home/unitymedia/performance/upload"
-DOWNLOAD_TOPIC="-t /home/unitymedia/performance/download"
+UPLOAD_TOPIC="-t home/internetprovider/performance/upload"
+DOWNLOAD_TOPIC="-t home/internetprovider/performance/download"
 # Perform speedtest and store output in variable
 RESULT=$(speedtest --json)
 # Grab upload and download values from speedtest result
