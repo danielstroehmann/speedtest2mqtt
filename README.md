@@ -6,7 +6,7 @@ Simple way to post raspbian native speedtest or speedtest by ookla upload and do
 **Preconditions**
 
 - install mosquitto clients by e.g. `apt install mosquitto-clients`
-- install (if not already) [I'm an inline-style link](https://stedolan.github.io/jq/) for json cli parsing
+- install (if not already) [jq](https://stedolan.github.io/jq/) for json cli parsing
 - speedtest and mosquitto clients are in path variable so they can be called by the commands given in the script
 
 **Usage**
