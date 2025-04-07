@@ -16,7 +16,7 @@ As mentioned in the scripts adopt the parameters to your needs:
 - `BROKER_ADDR`: set to your IP/FQDN or set to "" in case of localhost
 - `BROKER_PORT`: set to 1883 (default) or 8883 (secured). Can be set to "" to use 1883 as default.
 - `CAFILE`: root ca file in PEM format or set to "" to not use TLS
-- `CLIENT_CERT` & `CLIENT_KEY`: set to your mtls client certificate and private key or "" to disable mutual TLS
-- `UPLOAD_TOPIC` & `DOWNLOAD_TOPIC`: mqtt topc, adjust to your needs
+- `CLIENT_CERT` & `CLIENT_KEY`: set to your client's auth certificate and private key or "" to disable mutual TLS
+- `UPLOAD_TOPIC` & `DOWNLOAD_TOPIC`: mqtt topic for publisher and subscriber, adjust to your needs
 
 
